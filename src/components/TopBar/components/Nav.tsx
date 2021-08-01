@@ -19,14 +19,14 @@ const Nav: React.FC = () => {
 				Home
 			</StyledLink>
 			<StyledLink
-				exact
+				exact={false}
 				activeClassName="active"
 				to={{ pathname: '/nests', search: '?ref=' + refer }}
 			>
 				Nests
 			</StyledLink>
 			<StyledLink
-				exact
+				exact={false}
 				activeClassName="active"
 				to={{ pathname: '/farms', search: '?ref=' + refer }}
 			>
